@@ -7,6 +7,6 @@ def call_tel(code,time):
     if code in table:
         return table[code]*time
     else:
-        return 'Net takogo goroda!'
+        return 'Данного кода города нет в каталоге.'
 
-print(call_tel(int(input('Vvedite kod: ')),int(input('Vvedite vremya: '))))
+print(call_tel(int(input('Введите код города: ')),int(input('Введите время разговора: '))))
