@@ -4,4 +4,4 @@ def my_max(a,b):
     else:
         return b
 
-print(my_max(int(input('Vvedite pervoe chislo: ')),int(input('Vvedite vtoroe chislo: '))))
+print(my_max(int(input('Введите первое число: ')),int(input('Введите второе число: '))))
