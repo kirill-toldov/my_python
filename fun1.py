@@ -4,4 +4,4 @@ def fun1(x):
     else:
         return 4
 
-print(fun1(int(input('Vvedite chislo: '))))
+print(fun1(int(input('Введите, пожалуйста, число: '))))
